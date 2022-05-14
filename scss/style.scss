@@ -114,7 +114,7 @@ img {
     }
 
     .popup-open {
-        left: -15px;
+        left: 0px;
     }
 
     .nav {
@@ -137,17 +137,6 @@ img {
     .nav-list-text:hover {
         color: #C80000;
     }
-
-
-
-
-
-
-
-
-
-
-
 
 
 .slider {
@@ -1655,6 +1644,12 @@ img {
                 margin-bottom: 45px;
             }
         }
+
+        @media screen and (max-width: 400px) {
+            .popup {
+                left: -200%;
+        }
+    }
 
 
 
