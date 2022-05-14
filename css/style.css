@@ -1469,3 +1469,10 @@ img {
     margin-bottom: 45px;
   }
 }
+
+@media screen and (max-width: 400px) {
+      .popup {
+        left: -150%;
+    }
+  }
+
